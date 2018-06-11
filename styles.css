@@ -1,0 +1,91 @@
+body{
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("img/texture.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+h1{
+  padding: 1rem 0;
+  font-family: 'Courgette', 'cursive';
+  font-size: 28px;
+}
+
+.calculator {
+  padding: 2rem 0;
+  width: 350px;
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px black;
+}
+
+.row{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+#terminal {
+  font-family:'digital';
+  border-style: inset;
+  border-width: 7px;
+  border-color: gray;
+  height: 3rem;
+  width: 80%;
+  background-color: #BDE8B5;
+  margin-bottom: 1rem;
+  font-size: 30px;
+  text-align: right;
+  line-height: 3rem;
+  padding: 0 0.5rem;
+}
+
+
+button {
+  padding: 12px 0;
+  width: 60px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #999;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px gray;
+}
+  
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#equal {
+  width: 86%;
+  background-color: green;
+}
+
+.operator {
+  background-color: orange;
+}
+
+#clear {
+  background-color: orangered;
+}
+
+@font-face{
+  font-family:'digital';
+  src: url('fonts/digital.ttf');
+ }
+
+
